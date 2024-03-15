@@ -16,8 +16,8 @@ export default function TopNav() {
             </div>
           </Link>
         </div>
-        <div className="flex justify-between px-3 py-2 bg-gray-50">
-            <NavLinks />
+        <div className="flex justify-between gap-4 px-3 py-2 bg-blue-600">
+        <NavLinks />
         </div>
         <button className="flex items-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600">
           <PowerIcon className="w-6" />
