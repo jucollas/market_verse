@@ -1,3 +1,6 @@
+import '@/app/ui/global.css';
+import NavBar from './ui/navbar';
+
 export default function RootLayout({
   children,
 }: {
@@ -5,6 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <NavBar/>
       <body>{children}</body>
     </html>
   );
